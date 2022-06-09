@@ -11,6 +11,7 @@ html {
     --accent-color: #f582ae;
     --text-color: #001858;
     --box-color: #f3d2c1;
+    height: 100%;
 }
 
 body {
@@ -20,7 +21,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 100%;
     line-height: 1.5em;
 }
 
