@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="LazyOwls"/>
+    <meta name="theme-color" content="#f3d2c1"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@600&family=Nunito+Sans:wght@400;600;700;800;900&display=swap"
+          rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Random Password Generator</title>
+</head>
+<body>
+<main class="container">
+    <div class="title">
+        <h1><span class="title_opening">Generate a</span><br>Random Password</h1>
+        <p>Never use an insecure password again.</p>
+    </div>
+    <div class="password">
+        <div class="password_text">
+            <label for="password_length">Password Length</label>
+            <input id="password_length" type="number" max="15" min="6" value="10">
+        </div>
+        <button id="generate_pass">Generate Password</button>
+    </div>
+    <hr>
+    <div class="password_field">
+        <div class="password_row">
+            <p class="password_area">...</p>
+            <button class="pass_copy">Copy</button>
+        </div>
+        <div class="password_row">
+            <p class="password_area">...</p>
+            <button class="pass_copy">Copy</button>
+        </div>
+        <div class="password_row">
+            <p class="password_area">...</p>
+            <button class="pass_copy">Copy</button>
+        </div>
+        <div class="password_row">
+            <p class="password_area">...</p>
+            <button class="pass_copy">Copy</button>
+        </div>
+    </div>
+    <div class="error_field hide">
+        <p>Please choose a password length between 6 and 15 characters.</p>
+    </div>
+    <div class="footer">
+        <a href="https://lazyowls.io/links" target="_blank" rel="noreferrer noopener">lazyowls<span>.</span>io</a>
+        <p>© 2022</p>
+    </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
