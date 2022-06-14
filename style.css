@@ -7,10 +7,10 @@
 }
 
 html {
-    --background-color: #fef6e4;
-    --accent-color: #f582ae;
-    --text-color: #001858;
-    --box-color: #f3d2c1;
+    --background-color: #f3fbfb;
+    --accent-color: #d7bb25;
+    --text-color: #272343;
+    --box-color: #bae8e8;
     height: 100%;
 }
 
@@ -30,26 +30,29 @@ body {
 }
 
 .title_opening {
-    color: var(--accent-color);
+    color: var(--text-color);
     font-size: 24px;
     font-weight: 900;
 }
 
 h1 {
+    color: var(--accent-color);
     font-weight: 900;
     font-size: 30px;
-    line-height: 1.1em;
+    line-height: 1em;
 }
 
 .title > p {
+    margin-top: 0.3em;
     font-size: 18px;
 }
 
 .password {
-    margin-top: 35px;
+    margin: 25px 0;
 }
 
 .password_text {
+    margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
 }
@@ -57,14 +60,14 @@ h1 {
 .password_text > label, #password_length {
     font-size: 24px;
     font-weight: 700;
+    align-self: flex-end;
 }
 
 #generate_pass {
-    margin-top: 14px;
     width: 100%;
     padding: 12px 0;
-    background-color: var(--accent-color);
-    border: none;
+    background-color: transparent;
+    border: 2px solid var(--accent-color);
     border-radius: 5px;
     font-size: 20px;
     font-weight: 700;
@@ -143,7 +146,7 @@ hr {
     margin-top: 3em;
     margin-bottom: 1em;
     gap: 1em;
-    color: #CEC9BD;
+    color: #D1E0E0;
 }
 
 .footer a {
@@ -154,7 +157,7 @@ hr {
 }
 
 .footer span {
-    color: red;
+    color: var(--accent-color);
 }
 
 .hide {
