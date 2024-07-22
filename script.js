@@ -39,8 +39,6 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const symbols = ["!", "@", "#", "$", "%", "^", "&", "*", "(", ")", "_"];
 let enableCopy = false;
 
-console.log(enableCopy);
-
 //Event Listeners
 
 label.addEventListener("click", resetPassLength);
